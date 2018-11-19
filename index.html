@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <section class="container1 section1">
+        <div class="m-5 text-center title">
+            <p>
+                JavaScript DOM
+            </p>
+        </div>
+    </section>
+    <section class="container1 section1-2">
+        <div class="row m-4 ml-5">
+            <div class="col-3 active">
+                <a href="">Exercice 01</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 02</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 03</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 04</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 05</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 06</a>
+            </div>
+            <div class="col-3">
+                <a href="">Exercice 07</a>
+            </div>
+        </div>
+    </section>
+    <section class="panels">
+        <section class="container1 section2 visible">
+            <div class="p-5">
+                <h1 class="p-2 titre">
+                    Le titre modifié
+                </h1>
+                <p>liste de propriétés et méthodes à retrouver dans la documentation</p>
+                <ul>
+                    <li>innerText</li>
+                    <li>innerHTML</li>
+                    <li>querySelector()</li>
+                    <li>querySelectorAll()</li>
+                    <li>style</li>
+                    <li>classList</li>
+                </ul>
+                <p>
+                    Changer le contenu du h2 par "le titre modifié"
+                </p>
+                <p>
+                    Changer la couleur du h2 (la couleur que vous voulez)
+                </p>
+                <p>
+                    Ajouter une classe background bootstrap au h2
+                </p>
+            </div>
+        </section>
+        <section class="container1 section3">
+            <div class="p-5">
+                <h4>
+                    Mettre un écouteur d'évenement sur les boutons nav et changer le panel en conséquence.
+                </h4>
+            </div>
+        </section>
+        <section class="container1 section4">
+            <div class="p-5">
+                <h3>Welcome
+                    <span>Mimo</span>
+                </h3>
+                <input type="text" name="" id="">
+                <button class="btn">Go</button>
+            </div>
+        </section>
+        <section class="container1 section5">
+            <div class="row">
+                <div class="col-4">
+                    <div class="carre1"></div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <div class="carre2 d-none"></div>
+                </div>
+            </div>
+            <div>
+                <button class="button">Switch</button>
+                <br>
+                <br>
+                <button class="button2">Nombre de clics : <span class="lala"> 0</span></button>
+            </div>
+
+        </section>
+        <section class="container1 section6">
+            <h1>
+                Générer des éléments du DOM
+            </h1>
+            <p>
+                Cliquez sur le bouton ci-dessous pour générer mini-Chahid
+            </p>
+            <button class="but">Cliquez</button>
+            <div class="divchahid"></div>
+        </section>
+        <section class="container1 section7">
+            <h1 class="p-3">
+                Création d'une calculatrice
+            </h1>
+            <h2 class="p-3">
+                Niveau 1
+            </h2>
+            <input class="input1" type="number">
+            <span>+</span>
+            <input class="input2" type="number">
+            <button class="bg-warning boutton">=</button>
+            <span class="resultat"></span>
+            <h2 class="p-3">
+                Niveau 2
+            </h2>
+            <div class="container2 calculatrice m-3 p-2 bg-dark">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="noir">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">2</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">3</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="bg-primary">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="noir">4</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">5</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">6</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="bg-primary">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="noir">7</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">8</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">9</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="bg-primary">*</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="bg-danger">C</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="noir">0</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="bg-success">=</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="bg-primary">/</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container1 section8">
+            <div class="container p-4">
+                <h1 class="text-center">
+                    To-Do-List
+                </h1>
+                <input class="inputt mb-4" type="text">
+                <button class="clic bt1">Add</button>
+                <div class="mt-4">
+                    <button class="mb-4 bt">All</button>
+                    <button class="mb-4 bt">To Do</button>
+                    <button class="mb-4 bt">Done</button>
+                </div>
+                <div class="taches"></div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
