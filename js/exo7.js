@@ -3,7 +3,7 @@ let todos = [];
 let btnAdd = document.querySelector('.btnadd');
 let clic = document.querySelector('.clic');
 
-let part1 = "<div class=\"forme\"><span>";
+let part1 = "<div class=\"forme\"><span id=\"spa\" contenteditable=\"false\">";
 let part2 = "</span><button class=\"fl2 btn supprimer btn-danger\">X</button><button class=\"fl2 btn editer btn-warning\">E</button><button class=\"fl2 btn btn-success valider\">V</button></div>";
 
 
@@ -19,6 +19,17 @@ btnAdd.addEventListener('click', function () {
         });
         todos[i].querySelector('.btn-success').addEventListener('click', function () {
             todos[i].classList.toggle('bg-secondary');
+        });
+        todos[i].querySelector('.btn-warning').addEventListener('click', function () {
+            let spa = document.getElementById("spa");
+            
+            if (spa.contentEditable == "true") {
+                spa.contentEditable = "false";
+                button.innerHTML = "Enable";
+            } else {
+                spa.contentEditable = "true";
+                button.innerHTML = "Disable";
+            }
         });
     }
 });
