@@ -9647,7 +9647,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .section8 {
-  background-color: lightgrey;
   display: none;
 }
 
@@ -9660,6 +9659,20 @@ a.text-dark:hover, a.text-dark:focus {
   width: 800px;
   margin-left: 14%;
   border-radius: 7px;
+  margin-top: 10px;
+}
+
+.section8 div .forme {
+  background-color: #D2D2D2;
+  border-radius: 7px;
+  margin: 5px;
+  padding-left: 10px;
+  height: 38px;
+  color: black;
+}
+
+.section8 div .forme div {
+  display: inline;
 }
 
 .section8 div .bt1 {
@@ -9673,58 +9686,42 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: orange;
 }
 
-.section8 div div .bt {
+.section8 div .bt {
   background-color: #007bff;
   border-radius: 7px;
   padding: 5px 15px;
   width: 100px;
   height: 50px;
   color: white;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   border: none;
   margin: 10px;
 }
 
-.section8 div div .bt:hover {
-  background-color: green;
+.section8 div .bt:hover {
+  background-color: yellowgreen;
+  color: black;
 }
 
-.section8 div .taches {
-  background-color: #343a40;
-}
-
-.section8 div .taches .forme {
-  background-color: lightgrey;
-  color: #343a40;
-  font-size: 20px;
-  margin: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.section8 div .taches .forme .D {
+.section8 div .D {
   background-color: #dc3545;
-  border-radius: 5px;
   margin-left: 10px;
   border: none;
   color: white;
   padding: 8px;
 }
 
-.section8 div .taches .forme .V {
+.section8 div .V {
   background-color: #ffc107;
-  border-radius: 5px;
   margin-left: 10px;
   border: none;
   color: white;
   padding: 8px;
 }
 
-.section8 div .taches .forme .E {
+.section8 div .E {
   background-color: #17a2b8;
-  border-radius: 5px;
   margin-left: 10px;
   border: none;
   color: white;
@@ -9753,8 +9750,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .fl2 {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  float: right;
 }
 /*# sourceMappingURL=main.css.map */
